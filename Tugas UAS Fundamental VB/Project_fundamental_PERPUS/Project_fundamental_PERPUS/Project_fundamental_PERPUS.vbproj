@@ -1,0 +1,423 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0B4F5660-6D9C-4F4B-A01C-4D3E82AAE9DC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Project_fundamental_PERPUS.My.MyApplication</StartupObject>
+    <RootNamespace>Project_fundamental_PERPUS</RootNamespace>
+    <AssemblyName>Project_fundamental_PERPUS</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Project_fundamental_PERPUS.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Project_fundamental_PERPUS.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=6.9.6.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controller\ADMIN.vb" />
+    <Compile Include="Controller\ANGGOTA.vb" />
+    <Compile Include="Controller\BUKU.vb" />
+    <Compile Include="Controller\PEMINJAMAN.vb" />
+    <Compile Include="Controller\PENGEMBALIAN.vb" />
+    <Compile Include="Controller\PENGUNJUNG.vb" />
+    <Compile Include="Controller\Class_CRUD.vb" />
+    <Compile Include="Module\Class_Koneksi.vb" />
+    <Compile Include="Module\Module1.vb" />
+    <Compile Include="Views\Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Login.Designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Views\Menu_Awal.Designer.vb">
+      <DependentUpon>Menu_Awal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Menu_Awal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Tampilan_Awal.Designer.vb">
+      <DependentUpon>Tampilan_Awal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Tampilan_Awal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Tampilan_Daftar_Anggota.Designer.vb">
+      <DependentUpon>Tampilan_Daftar_Anggota.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Tampilan_Daftar_Anggota.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Ubah_Admin.Designer.vb">
+      <DependentUpon>Ubah_Admin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Ubah_Admin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Ubah_Anggota.Designer.vb">
+      <DependentUpon>Ubah_Anggota.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Ubah_Anggota.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Ubah_Buku.Designer.vb">
+      <DependentUpon>Ubah_Buku.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Ubah_Buku.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Ubah_Pinjam.Designer.vb">
+      <DependentUpon>Ubah_Pinjam.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Ubah_Pinjam.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Uc_Admin.Designer.vb">
+      <DependentUpon>Uc_Admin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Uc_Admin.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Uc_Anggota.Designer.vb">
+      <DependentUpon>Uc_Anggota.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Uc_Anggota.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Uc_Buku.Designer.vb">
+      <DependentUpon>Uc_Buku.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Uc_Buku.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Uc_Info_Awal.Designer.vb">
+      <DependentUpon>Uc_Info_Awal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Uc_Info_Awal.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Uc_Pinjam.Designer.vb">
+      <DependentUpon>Uc_Pinjam.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Uc_Pinjam.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Uc_Pengembalian.Designer.vb">
+      <DependentUpon>Uc_Pengembalian.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Uc_Pengembalian.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Views\Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Menu_Awal.resx">
+      <DependentUpon>Menu_Awal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Tampilan_Awal.resx">
+      <DependentUpon>Tampilan_Awal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Tampilan_Daftar_Anggota.resx">
+      <DependentUpon>Tampilan_Daftar_Anggota.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Ubah_Admin.resx">
+      <DependentUpon>Ubah_Admin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Ubah_Anggota.resx">
+      <DependentUpon>Ubah_Anggota.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Ubah_Buku.resx">
+      <DependentUpon>Ubah_Buku.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Ubah_Pinjam.resx">
+      <DependentUpon>Ubah_Pinjam.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Uc_Admin.resx">
+      <DependentUpon>Uc_Admin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Uc_Anggota.resx">
+      <DependentUpon>Uc_Anggota.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Uc_Buku.resx">
+      <DependentUpon>Uc_Buku.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Uc_Info_Awal.resx">
+      <DependentUpon>Uc_Info_Awal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Uc_Pinjam.resx">
+      <DependentUpon>Uc_Pinjam.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Uc_Pengembalian.resx">
+      <DependentUpon>Uc_Pengembalian.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo_departemen_agama.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\28962.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b5cdab07.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-buku-edukasi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Join_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gu.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\notebook-731212__340.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1_9EBHIOzhE1XfMYoKz1JcsQ.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\47-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add-button_318-32466.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add-person-2646097_960_720.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Apple-21-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Buku.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Circle-icons-pencil.svg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete-button_318-27987.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\giphy %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\giphy.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loadingImage.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\material-icon-2155448_960_720.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\md_5afd2b1f29375.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\notepad-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\open-file-circle-icons-pencil-svg-wikimediamons-px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\person-icon_31846.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\progress-bar-opt.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SorrowfulElasticHyracotherium-small.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Yb3A.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\admin_1246364.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\users_with_circle_256.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\profile2-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pembagian-kelompok.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\books-icon-psd-image-2331red-book.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\306443.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ad19f313689269ae648dd22b22b2a5cc_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background-putih-camera-hd-jpg-cloud-and-security-monitoring.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Calendar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendar-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unnamed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_tbh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_hps.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_hps1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lht_sandi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\house-top-icon-17736.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image10.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Printing-Book-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\74472.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\people-icons-80620.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

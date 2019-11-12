@@ -1,0 +1,46 @@
+D:\mfaa\projet fitra\Project_Fundamental_UAS\Project_fundamental_PERPUS\Project_fundamental_PERPUS\obj\x86\Debug\Project_fundamental_PERPUS.exe
+D:\mfaa\projet fitra\Project_Fundamental_UAS\Project_fundamental_PERPUS\Project_fundamental_PERPUS\obj\x86\Debug\Project_fundamental_PERPUS.xml
+D:\mfaa\projet fitra\Project_Fundamental_UAS\Project_fundamental_PERPUS\Project_fundamental_PERPUS\obj\x86\Debug\Project_fundamental_PERPUS.pdb
+D:\mfaa\projet fitra\Project_Fundamental_UAS\Project_fundamental_PERPUS\Project_fundamental_PERPUS\bin\Debug\Project_fundamental_PERPUS.exe
+D:\mfaa\projet fitra\Project_Fundamental_UAS\Project_fundamental_PERPUS\Project_fundamental_PERPUS\bin\Debug\Project_fundamental_PERPUS.pdb
+D:\mfaa\projet fitra\Project_Fundamental_UAS\Project_fundamental_PERPUS\Project_fundamental_PERPUS\bin\Debug\Project_fundamental_PERPUS.xml
+D:\mfaa\projet fitra\Project_Fundamental_UAS\Project_fundamental_PERPUS\Project_fundamental_PERPUS\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\mfaa\projet fitra\Project_Fundamental_UAS\Project_fundamental_PERPUS\Project_fundamental_PERPUS\obj\x86\Debug\Project_fundamental_PERPUS.Login.resources
+D:\mfaa\projet fitra\Project_Fundamental_UAS\Project_fundamental_PERPUS\Project_fundamental_PERPUS\obj\x86\Debug\Project_fundamental_PERPUS.Resources.resources
+D:\mfaa\projet fitra\Project_Fundamental_UAS\Project_fundamental_PERPUS\Project_fundamental_PERPUS\obj\x86\Debug\Project_fundamental_PERPUS.Menu_Awal.resources
+D:\mfaa\projet fitra\Project_Fundamental_UAS\Project_fundamental_PERPUS\Project_fundamental_PERPUS\obj\x86\Debug\Project_fundamental_PERPUS.Tampilan_Awal.resources
+D:\mfaa\projet fitra\Project_Fundamental_UAS\Project_fundamental_PERPUS\Project_fundamental_PERPUS\obj\x86\Debug\Project_fundamental_PERPUS.Tampilan_Daftar_Anggota.resources
+D:\mfaa\projet fitra\Project_Fundamental_UAS\Project_fundamental_PERPUS\Project_fundamental_PERPUS\obj\x86\Debug\Project_fundamental_PERPUS.Ubah_Admin.resources
+D:\mfaa\projet fitra\Project_Fundamental_UAS\Project_fundamental_PERPUS\Project_fundamental_PERPUS\obj\x86\Debug\Project_fundamental_PERPUS.Ubah_Anggota.resources
+D:\mfaa\projet fitra\Project_Fundamental_UAS\Project_fundamental_PERPUS\Project_fundamental_PERPUS\obj\x86\Debug\Project_fundamental_PERPUS.Ubah_Buku.resources
+D:\mfaa\projet fitra\Project_Fundamental_UAS\Project_fundamental_PERPUS\Project_fundamental_PERPUS\obj\x86\Debug\Project_fundamental_PERPUS.Uc_Admin.resources
+D:\mfaa\projet fitra\Project_Fundamental_UAS\Project_fundamental_PERPUS\Project_fundamental_PERPUS\obj\x86\Debug\Project_fundamental_PERPUS.Uc_Anggota.resources
+D:\mfaa\projet fitra\Project_Fundamental_UAS\Project_fundamental_PERPUS\Project_fundamental_PERPUS\obj\x86\Debug\Project_fundamental_PERPUS.Uc_Buku.resources
+D:\mfaa\projet fitra\Project_Fundamental_UAS\Project_fundamental_PERPUS\Project_fundamental_PERPUS\obj\x86\Debug\Project_fundamental_PERPUS.Uc_Info_Awal.resources
+D:\mfaa\projet fitra\Project_Fundamental_UAS\Project_fundamental_PERPUS\Project_fundamental_PERPUS\obj\x86\Debug\Project_fundamental_PERPUS.Uc_Pengembalian.resources
+D:\mfaa\projet fitra\Project_Fundamental_UAS\Project_fundamental_PERPUS\Project_fundamental_PERPUS\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\mfaa\projet fitra\Project_Fundamental_UAS\Project_fundamental_PERPUS\Project_fundamental_PERPUS\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\mfaa\projet fitra\Project_Fundamental_UAS\Project_fundamental_PERPUS\Project_fundamental_PERPUS\obj\x86\Debug\Project_fundamental_PERPUS.btn_btl_pinjam.resources
+D:\mfaa\projet fitra\Project_Fundamental_UAS\Project_fundamental_PERPUS\Project_fundamental_PERPUS\obj\x86\Debug\Project_fundamental_PERPUS.Ubah_Pinjam.resources
+D:\Project Fitra Surya Saputra VB - 2013\Tugas UAS Fundamental VB\Project_fundamental_PERPUS\Project_fundamental_PERPUS\obj\x86\Debug\Project_fundamental_PERPUS.exe
+D:\Project Fitra Surya Saputra VB - 2013\Tugas UAS Fundamental VB\Project_fundamental_PERPUS\Project_fundamental_PERPUS\obj\x86\Debug\Project_fundamental_PERPUS.xml
+D:\Project Fitra Surya Saputra VB - 2013\Tugas UAS Fundamental VB\Project_fundamental_PERPUS\Project_fundamental_PERPUS\obj\x86\Debug\Project_fundamental_PERPUS.pdb
+D:\Project Fitra Surya Saputra VB - 2013\Tugas UAS Fundamental VB\Project_fundamental_PERPUS\Project_fundamental_PERPUS\bin\Debug\Project_fundamental_PERPUS.exe
+D:\Project Fitra Surya Saputra VB - 2013\Tugas UAS Fundamental VB\Project_fundamental_PERPUS\Project_fundamental_PERPUS\bin\Debug\Project_fundamental_PERPUS.pdb
+D:\Project Fitra Surya Saputra VB - 2013\Tugas UAS Fundamental VB\Project_fundamental_PERPUS\Project_fundamental_PERPUS\bin\Debug\Project_fundamental_PERPUS.xml
+D:\Project Fitra Surya Saputra VB - 2013\Tugas UAS Fundamental VB\Project_fundamental_PERPUS\Project_fundamental_PERPUS\obj\x86\Debug\Project_fundamental_PERPUS.Login.resources
+D:\Project Fitra Surya Saputra VB - 2013\Tugas UAS Fundamental VB\Project_fundamental_PERPUS\Project_fundamental_PERPUS\obj\x86\Debug\Project_fundamental_PERPUS.Resources.resources
+D:\Project Fitra Surya Saputra VB - 2013\Tugas UAS Fundamental VB\Project_fundamental_PERPUS\Project_fundamental_PERPUS\obj\x86\Debug\Project_fundamental_PERPUS.Menu_Awal.resources
+D:\Project Fitra Surya Saputra VB - 2013\Tugas UAS Fundamental VB\Project_fundamental_PERPUS\Project_fundamental_PERPUS\obj\x86\Debug\Project_fundamental_PERPUS.Tampilan_Awal.resources
+D:\Project Fitra Surya Saputra VB - 2013\Tugas UAS Fundamental VB\Project_fundamental_PERPUS\Project_fundamental_PERPUS\obj\x86\Debug\Project_fundamental_PERPUS.Tampilan_Daftar_Anggota.resources
+D:\Project Fitra Surya Saputra VB - 2013\Tugas UAS Fundamental VB\Project_fundamental_PERPUS\Project_fundamental_PERPUS\obj\x86\Debug\Project_fundamental_PERPUS.Ubah_Admin.resources
+D:\Project Fitra Surya Saputra VB - 2013\Tugas UAS Fundamental VB\Project_fundamental_PERPUS\Project_fundamental_PERPUS\obj\x86\Debug\Project_fundamental_PERPUS.Ubah_Anggota.resources
+D:\Project Fitra Surya Saputra VB - 2013\Tugas UAS Fundamental VB\Project_fundamental_PERPUS\Project_fundamental_PERPUS\obj\x86\Debug\Project_fundamental_PERPUS.Ubah_Buku.resources
+D:\Project Fitra Surya Saputra VB - 2013\Tugas UAS Fundamental VB\Project_fundamental_PERPUS\Project_fundamental_PERPUS\obj\x86\Debug\Project_fundamental_PERPUS.Ubah_Pinjam.resources
+D:\Project Fitra Surya Saputra VB - 2013\Tugas UAS Fundamental VB\Project_fundamental_PERPUS\Project_fundamental_PERPUS\obj\x86\Debug\Project_fundamental_PERPUS.Uc_Admin.resources
+D:\Project Fitra Surya Saputra VB - 2013\Tugas UAS Fundamental VB\Project_fundamental_PERPUS\Project_fundamental_PERPUS\obj\x86\Debug\Project_fundamental_PERPUS.Uc_Anggota.resources
+D:\Project Fitra Surya Saputra VB - 2013\Tugas UAS Fundamental VB\Project_fundamental_PERPUS\Project_fundamental_PERPUS\obj\x86\Debug\Project_fundamental_PERPUS.Uc_Buku.resources
+D:\Project Fitra Surya Saputra VB - 2013\Tugas UAS Fundamental VB\Project_fundamental_PERPUS\Project_fundamental_PERPUS\obj\x86\Debug\Project_fundamental_PERPUS.Uc_Info_Awal.resources
+D:\Project Fitra Surya Saputra VB - 2013\Tugas UAS Fundamental VB\Project_fundamental_PERPUS\Project_fundamental_PERPUS\obj\x86\Debug\Project_fundamental_PERPUS.btn_btl_pinjam.resources
+D:\Project Fitra Surya Saputra VB - 2013\Tugas UAS Fundamental VB\Project_fundamental_PERPUS\Project_fundamental_PERPUS\obj\x86\Debug\Project_fundamental_PERPUS.Uc_Pengembalian.resources
+D:\Project Fitra Surya Saputra VB - 2013\Tugas UAS Fundamental VB\Project_fundamental_PERPUS\Project_fundamental_PERPUS\obj\x86\Debug\Project_fundamental_PERPUS.vbproj.GenerateResource.Cache
